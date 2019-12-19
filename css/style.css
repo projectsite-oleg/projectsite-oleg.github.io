@@ -234,7 +234,43 @@ footer {
 }
 @media (max-width: 1200px) {
 	.header-pretitle {
-		margin-top: 60px;
+		margin-top: 150px;
+	}
+}
+
+@media (max-width: 942px) {
+	.menu a {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 802px) {
+	.menu a {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+}
+
+@media (max-width: 732px) {
+	.menu a {
+		margin-left: 15px;
+		margin-right: 15px;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 608px) {
+	.menu a {
+		margin-left: 13px;
+		margin-right: 13px;
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 530px) {
+	.menu {
+		display: none;
 	}
 }
 
